@@ -1,0 +1,188 @@
+body {
+    background-color: black;
+}
+h1 {
+    font-size: 50px;
+    color: white;
+}
+
+.box {
+    background-color: cadetblue;
+    width: 150px;
+    height: 150px;
+    border: 2px solid black;
+    margin-top: 10px;
+}
+
+.imageBox {
+    margin-top: 80px;
+    background-color: darkcyan;
+    width: 1390px;
+    height: 617px;
+}
+
+.img {
+    height: 150px;
+    width: 150px;
+    cursor: pointer;
+}
+
+.one {
+    background-image: url(assets/am.jpg);
+}
+
+.two {
+    background-image: url(assets/bp.jpg);
+}
+
+.three {
+    background-image: url(assets/bw.jpg);
+}
+
+.four {
+    background-image: url(assets/ca.jpg);
+}
+
+.five {
+    background-image: url(assets/dd.jpg);
+}
+
+.six {
+    background-image: url(assets/deadpool.jpg);
+}
+
+.seven {
+    background-image: url(assets/ds.jpg);
+}
+
+.eight {
+    background-image: url(assets/e.jpg);
+}
+
+.nine {
+    background-image: url(assets/falcon.jpg);
+}
+
+.ten {
+    background-image: url(assets/gr.jpg);
+}
+
+.elven {
+    background-image: url(assets/haukay.jpg);
+}
+
+.tweleve {
+    background-image: url(assets/hs.jpg);
+}
+
+.thirteen {
+    background-image: url(assets/hulk.jpg);
+}
+
+.fourteen {
+    background-image: url(assets/iron\ man.jpg);
+}
+
+.fifteen {
+    background-image: url(assets/loki.jpg);
+}
+
+.sixteen {
+    background-image: url(assets/mm.jpg);
+}
+
+.seventeen {
+    background-image: url(assets/nickfury.jpg);
+}
+
+.eighteen {
+    background-image: url(assets/p.jpg);
+}
+
+.nineteen {
+    background-image: url(assets/rocket.jpg);
+}
+
+.twenty {
+    background-image: url(assets/rs.jpg);
+}
+.twentyone {
+    background-image: url(assets/sc.jpg);
+}
+.twentytwo {
+    background-image: url(assets/sh.jpg);
+}
+.twentythree {
+    background-image: url(assets/sm.jpg);
+}
+.twentyfour {
+    background-image: url(assets/thanos.jpg);
+}
+.twentyfive {
+    background-image: url(assets/thor.jpg);
+}
+.twentysix {
+    background-image: url(assets/ultrone.jpg);
+}
+.twentyseven {
+    background-image: url(assets/venom.jpg);
+}
+.twentyeight {
+    background-image: url(assets/vision.jpg);
+}
+.twentynine {
+    background-image: url(assets/w.jpg);
+}
+.thirty {
+    background-image: url(assets/wanda.jpg);
+}
+.thirtyone {
+    background-image: url(assets/wm.jpg);
+}
+.thirtytwo {
+    background-image: url(assets/ws.jpg);
+}
+
+
+
+.imageBox {
+    display: flex;
+    gap: 5px;
+    flex-wrap: wrap;
+}
+
+.grade {
+    height: 150px;
+    width: 6vw;
+    background-color: aqua;
+    text-align: center;
+    border: 2px solid black;
+    margin-top: 10px;
+}
+
+span {
+    font-size: 25px;
+    position: relative;
+    top: 60px;
+    font-weight: bold;
+}
+
+.conatiner {
+    display: flex;
+    gap: 10px;
+}
+
+
+.r-1 {
+    display: flex;
+}
+
+.br {
+    border-right: 0;
+}
+
+.bl {
+    border-left: 0;
+}
+
+
